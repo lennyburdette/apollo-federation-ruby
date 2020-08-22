@@ -1,12 +1,10 @@
-# frozen_string_literal: true
-
-require_relative 'proto/apollo_pb'
+require_relative './apollo.pb'
 
 module ApolloFederation
   module Tracing
-    Trace = ::Mdg::Engine::Proto::Trace
-    Node = ::Mdg::Engine::Proto::Trace::Node
-    Location = ::Mdg::Engine::Proto::Trace::Location
-    Error = ::Mdg::Engine::Proto::Trace::Error
+    Trace = ::Squareup::Mdg::Engine::Proto::Trace
+    Node = ::Squareup::Mdg::Engine::Proto::Trace::Node
+    Location = ::Squareup::Mdg::Engine::Proto::Trace::Location
+    Error = ::Squareup::Mdg::Engine::Proto::Trace::Error
   end
 end
