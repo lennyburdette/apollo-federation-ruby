@@ -1,5 +1,9 @@
 # apollo-federation
 
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+This fork is specifically for use in Square ruby apps. Square's fork of protobuf is incompatible with the open-source version referenced in this gem's Gemfile. It _just works_ when we remove the reference and allow the gem to implicitly depend on whatever protobuf is available.
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+
 [![CircleCI](https://circleci.com/gh/Gusto/apollo-federation-ruby/tree/master.svg?style=svg)](https://circleci.com/gh/Gusto/apollo-federation-ruby/tree/master)
 
 This gem extends the [GraphQL Ruby](http://graphql-ruby.org/) gem to add support for creating an [Apollo Federation](https://www.apollographql.com/docs/apollo-server/federation/introduction/) schema.
